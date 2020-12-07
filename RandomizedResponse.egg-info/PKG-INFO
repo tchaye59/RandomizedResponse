@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: RandomizedResponse
+Version: 0.0.1
+Summary: Applies a RandomizedResponse to the input. The RandomizedResponse layer randomly sets input units to random values with a frequency of rate at each step during training time, which helps prevent overfitting. 
+Home-page: https://github.com/tchaye59/RandomizedResponse
+Author: Jude TCHAYE
+Author-email: tchaye59@gmail.com
+License: UNKNOWN
+Description: # RandomizedResponse
+        
+        
+        ## Installation
+        
+        - Install from Github source:
+        
+        ```
+        git clone https://github.com/tchaye59/RandomizedResponse.git
+        cd RandomizedResponse
+        python setup.py install
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
