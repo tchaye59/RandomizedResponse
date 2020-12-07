@@ -3,6 +3,8 @@
 
 ## Installation
 
+pip install RandomizedResponse
+
 - Install from Github source:
 
 ```

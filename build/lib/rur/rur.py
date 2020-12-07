@@ -30,3 +30,11 @@ class RandomizedResponse(keras.layers.Layer):
         choice = tf.cast(tf.reshape(choice, x_shape), x_dtype)
         rands = tf.random.uniform(x_shape, minval=min_value, maxval=max_value, dtype=x_dtype)
         return (X * tf.abs(choice - 1)) + (choice * rands)
+
+    def get_config(self):
+        return {
+            "p": self.p,
+            "max_value": self.max_value,
+            "min_value": self.min_value,
+            "auto": self.auto,
+        }
